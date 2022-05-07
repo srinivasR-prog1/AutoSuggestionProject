@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutoSuggestApp" duration-ms="16606" started-at="2022-05-07T17:19:03Z" finished-at="2022-05-07T17:19:20Z">
+    <groups>
+    </groups>
+    <test name="GoogleHomeTest" duration-ms="7375" started-at="2022-05-07T17:19:03Z" finished-at="2022-05-07T17:19:10Z">
+      <class name="com.autoSuggest.testCases.TC_GoogleHomeTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.autoSuggest.testCases.TC_GoogleHomeTest_001@5c3bd550]" name="setUp" is-config="true" duration-ms="3776" started-at="2022-05-07T22:49:03Z" finished-at="2022-05-07T22:49:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomepageTest(java.lang.String, java.lang.String)[pri:0, instance:com.autoSuggest.testCases.TC_GoogleHomeTest_001@5c3bd550]" name="HomepageTest" duration-ms="2931" started-at="2022-05-07T22:49:07Z" finished-at="2022-05-07T22:49:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[docker compose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoSuggest.testCases.TC_GoogleHomeTest_001@5c3bd550]" name="tearDown" is-config="true" duration-ms="653" started-at="2022-05-07T22:49:10Z" finished-at="2022-05-07T22:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autoSuggest.testCases.TC_GoogleHomeTest_001 -->
+    </test> <!-- GoogleHomeTest -->
+    <test name="SearchTest" duration-ms="9189" started-at="2022-05-07T17:19:11Z" finished-at="2022-05-07T17:19:20Z">
+      <class name="com.autoSuggest.testCases.TC_SearchTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.autoSuggest.testCases.TC_SearchTest_001@239963d8]" name="setUp" is-config="true" duration-ms="4699" started-at="2022-05-07T22:49:11Z" finished-at="2022-05-07T22:49:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPageTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.autoSuggest.testCases.TC_SearchTest_001@239963d8]" name="searchPageTest" duration-ms="3663" started-at="2022-05-07T22:49:15Z" finished-at="2022-05-07T22:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[docker compose]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Localhost]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.autoSuggest.testCases.TC_SearchTest_001@239963d8]" name="tearDown" is-config="true" duration-ms="825" started-at="2022-05-07T22:49:19Z" finished-at="2022-05-07T22:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.autoSuggest.testCases.TC_SearchTest_001 -->
+    </test> <!-- SearchTest -->
+  </suite> <!-- AutoSuggestApp -->
+</testng-results>
